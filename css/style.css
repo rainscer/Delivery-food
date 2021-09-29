@@ -30,13 +30,13 @@ body{
     background-position: left 11px center;
 }
 .addres-input{
-    width: 690px;  
+    flex: 0.8; 
     background-image: url(../img/home.svg);
 }
 .input-search{
     width: 300px;
     background-image: url(../img/search.png);  
-
+    margin-left: auto;
 }
 .button {
     padding: 8px 16px;
@@ -65,7 +65,9 @@ body{
 .button-text{
     vertical-align: middle;
 }
-
+.main{
+    background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
+}
 .promo{
     filter: drop-shadow(0px 7px 12px rgba(158, 158, 163, 0.1));
     background: #FFF1B8 url(../img/bg.png) no-repeat top right -200px /1100px;
@@ -95,7 +97,7 @@ body{
 .section-heading{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+
     margin-bottom: 44px;
 }
 
@@ -107,6 +109,7 @@ body{
     line-height: 42px;
     color: #000000;
     margin: 0;
+    margin-right: 30px;
 }
 .card{
     background: #FFFFFF;
@@ -114,6 +117,8 @@ body{
     border-radius: 7px;
     overflow: hidden;
    margin-bottom: 30px;
+   flex-basis: 31%;
+   text-decoration: none;
 }
 .cards{
     display: flex;
@@ -122,8 +127,8 @@ body{
     justify-content: space-between;
 }
 .card-image{
-    width: 384px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 .card-text{
@@ -143,6 +148,14 @@ body{
     font-size: 24px;
     line-height: 32px;
 }
+.card-title-reg{
+    font-weight: 400;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+}
 .card-tag{
     font-style: normal;
     font-weight: normal;
@@ -156,6 +169,7 @@ body{
 .card-info{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .rating{
     margin-right: 26px;
@@ -176,6 +190,37 @@ color: #8C8C8C;
 .price{
     margin-right: 10px;
 }
+.ingrediants{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+color: #8C8C8C;
+}
+
+.button-card-image{
+    margin-top: 5px;
+}
+.button-card-text{
+    margin-right: 10px;
+}
+.card-price-bold{
+    margin-left: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+
+color: #000000;
+}
+.cards-buttons{
+display: flex;
+align-items: center;
+margin-top: 24px;
+}
 .price:after{
     content: "";
     width: 5px;
@@ -185,4 +230,36 @@ color: #8C8C8C;
     vertical-align: middle;
     border-radius: 50%;
     margin-left: 10px;
+}
+.footer{
+    padding: 60px 0;
+}
+.footer-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-nav{
+    margin-left: 35px;
+    margin-right: auto;
+}
+.footer-link{
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;   
+    color: #595959;
+    text-decoration: none ;
+}
+.footer-link:not(:last-child){
+    margin-right: 15px;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+}
+.social-link:not(:last-child){
+    margin-right: 21px;
 }
