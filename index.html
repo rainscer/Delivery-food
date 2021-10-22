@@ -23,9 +23,16 @@
            </a>
         <input type="text" class="input addres-input" placeholder="Адрес доставки">
         <div class="buttons">
-            <button class="button button-primary">
+            <button class="button button-primary " id="button-auto">
                 <img src="img/user.svg" alt="user" class="button-icon">
                 <span class="button-text">Войти</span>
+            </button>
+            <p class="username">
+                rainscer
+            </p>
+            <button class="button button-primary button-logout">
+                <img src="img/user.svg" alt="user" class="button-icon">
+                <span class="button-text">Выйти</span>    
             </button>
             <button class="button "  id="cart-button">
                 <img src="img/backage.png" alt="shop" class="button-icon">
@@ -174,6 +181,7 @@
         </div>
     </footer>
 </div>
+
 <div class="modal">
     <div class="modal-dialog">
         <div class="modal-header">
@@ -234,6 +242,33 @@
                 <button class="button">Отмена</button>
             </div>
         </div>
+    </div>    
+</div>
+
+<div class="modal-auto">
+    <div class="modal-dialog">
+        <div class="modal-auto-header">
+            <button class="auto-close">&times;</button>
+        </div>
+        <div class="modal-body">
+            <h5 class="modal-title">Авторизация</h5>
+            <form action="" class="form-auto">
+                <div class="auto login">
+                        Логин
+                    <input type="" id="login" value="">
+                </div>
+                <div class="auto password">
+                        Пароль
+                    <input type="password" id="password" value="">
+                </div>
+    
+        </div>
+        <div class="modal-auto-footer">
+            <div class="footer-buttons">
+                <button type="submit" class="button button-primary" id="auto">Войти</button>
+            </div>
+        </div>
+        </form>   
     </div>
 </div>
 <script src="js/wow.min.js"></script>
