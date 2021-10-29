@@ -407,3 +407,8 @@ margin-top: 24px;
     border: none;
     background-color: transparent;
 }
+.scroll-off{
+   overflow: hidden;
+   height: 100vh;
+   position: relative; 
+}
