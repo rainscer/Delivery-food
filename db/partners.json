@@ -5,7 +5,7 @@
     "stars": 4.5,
     "price": 900,
     "kitchen": "Пицца",
-    "image": "img/pizza-plus.png",
+    "image": "img/pizza-plus/preview.jpg",
     "products": "pizza-plus.json"
   },
   {
@@ -14,7 +14,7 @@
     "stars": 4.3,
     "price": 1200,
     "kitchen": "Суши, роллы",
-    "image": "img/image (1).png",
+    "image": "img/tanuki/preview.jpg",
     "products": "tanuki.json"
   },
   {
@@ -23,7 +23,7 @@
     "stars": 4.4,
     "price": 450,
     "kitchen": "Пицца",
-    "image": "img/image (2).png",
+    "image": "img/food-band/preview.jpg",
     "products": "food-band.json"
   },
   {
@@ -32,7 +32,7 @@
     "stars": 4.1,
     "price": 500,
     "kitchen": "Пицца",
-    "image": "img/image (3).png",
+    "image": "img/palki-skalki/preview.jpg",
     "products": "palki-skalki.json"
   },
   {
@@ -41,7 +41,7 @@
     "stars": 4.7,
     "price": 1000,
     "kitchen": "Русская кухня",
-    "image": "img/image (4).png",
+    "image": "img/gusi-lebedi/preview.jpg",
     "products": "gusi-lebedi.json"
   },
   {
@@ -50,7 +50,7 @@
     "stars": 4.6,
     "price": 700,
     "kitchen": "Пицца",
-    "image": "img/image (5).png",
+    "image": "img/pizza-burger/preview.jpg",
     "products": "pizza-burger.json"
   }
 ]
